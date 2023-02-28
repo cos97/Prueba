@@ -27,31 +27,6 @@ public class Calculadora {
         
         String[] pruebaDesordenada = new String[pruebaGit.length()];*/
         
-            String pruebaGit = "Esto es una prueba de git de v2 a v3";
-
-        // Convertir el String original en un array de caracteres
-        char[] chars = pruebaGit.toCharArray();
-
-        // Mezclar los caracteres aleatoriamente
-        List<Character> charList = new ArrayList<Character>();
-        for (char c : chars) {
-            charList.add(c);
-        }
-        Collections.shuffle(charList);
-
-        // Convertir el array de caracteres mezclados de nuevo en un String
-        StringBuilder sb = new StringBuilder(charList.size());
-        for (Character c : charList) {
-            sb.append(c);
-        }
-        String pruebaDesordenada = sb.toString();
-
-        // Separar las palabras del String mezclado y almacenarlas en un array de String resultado
-        String[] resultado = pruebaDesordenada.split("  ");
-
-        // Imprimir el resultado en líneas separadas
-        for (String s : resultado) {
-            System.out.println(s);
-        }
+            
     }
 }
